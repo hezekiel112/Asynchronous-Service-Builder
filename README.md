@@ -12,3 +12,6 @@ C# library used for making asynchronous background service
   - Exit Key (Each service's RunLoop has an exit key when their function ended) *0 = PASS, 1 = ERROR (need manual restart), 2 = ERROR (automatic restart)
   - Run Priority (Proxies and Nodes has their own priority on boot, which can be manual and need a manual start) *HIGH = 0x3, MEDIUM = 0x2, STANDARD = 0x1, MANUAL)
   - Engine's Defaults (The project contains samples services which can help in kickstart your project) *Simple REPL and MANUAL priority node contains full code documentation
+
+# Instruction
+  - In order to try out ASB, you will need to swich into the <b>alpha</b> branch.
